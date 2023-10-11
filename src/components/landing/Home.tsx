@@ -34,7 +34,7 @@ function Home() {
           <h1
             data-aos="fade-up"
             className="text-5xl text-white py-2 phone:w-max phone:text-3xl smPhone:text-lg">
-            <span className="phone:hidden">I am a </span>
+            <span className="smPhone:hidden phone:hidden">I am a </span>
             <Typewriter
               words={[
                 "Junior Front End Developer",
