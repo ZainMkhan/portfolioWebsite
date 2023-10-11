@@ -6,6 +6,8 @@ import {
   FaGithub,
 } from "react-icons/fa";
 
+import resume from "./../../assets/resume.pdf";
+
 function About() {
   return (
     <div
@@ -33,9 +35,12 @@ function About() {
         </div>
         {/* Contact and Resume Button */}
         <div className=" w-full mb-10 p-6 flex justify-evenly smPhone:mb-1">
-          <button className="w-max px-6 py-4 border rounded-[2em] border-red-300 shadow-xl hover:bg-yellow-400 hover:border-none transition-all ease-in-out duration-700 font-light smPhone:py-3 phone:text-2xl">
-            Download Resume
-          </button>
+          <a href={resume} download={"Zain's Resume"}>
+            {" "}
+            <button className="w-max px-6 py-4 border rounded-[2em] border-red-300 shadow-xl hover:bg-yellow-400 hover:border-none transition-all ease-in-out duration-700 font-light smPhone:py-3 phone:text-2xl">
+              Download Resume
+            </button>
+          </a>
         </div>
       </div>
 
