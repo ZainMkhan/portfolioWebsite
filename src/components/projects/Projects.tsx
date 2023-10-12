@@ -35,7 +35,7 @@ function Projects() {
             <h1 className="text-3xl font-mono py-3 text-white font-bold smPhone:order-1 smPhone:text-xl">
               Zodo (Todo List Web App)
             </h1>
-            <p className="bg-white rounded-xl p-6 text-lg font-mono smPhone:text-[10px] smPhone:p-1 smPhone:order-2 phone:mb-4">
+            <p className="bg-white rounded-xl p-6 text-lg font-mono smPhone:text-[10px] smPhone:p-1 smPhone:order-2 phone:mb-4 description:text-start">
               Zodo is the perfect companion for managing tasks effortlessly. It
               offers a sleek, intuitive UI, date options, and priorities for a
               stylish and productive experience.
@@ -53,7 +53,7 @@ function Projects() {
               </p>
             </div>
             {/* Find Live or Code  */}
-            <div className="w-full  flex justify-end gap-10 text-3xl text-white pr-3 order-5 smPhone:border-b border-gray-50 phone:border-b phone:pb-10 phone:mb-10">
+            <div className="w-full  flex justify-end gap-10 text-3xl text-white pr-3 order-5 smPhone:border-b smPhone:pb-5 border-gray-50 phone:border-b phone:pb-10 phone:mb-10">
               <a
                 href="https://github.com/ZainMkhan/zodo"
                 rel="noopener"
@@ -145,13 +145,13 @@ function Projects() {
             <h1 className="text-3xl font-mono py-3 text-white font-bold smPhone:order-1 smPhone:text-xl">
               Shoper (Ecommerce Website)
             </h1>
-            <p className="bg-white border border-black rounded-xl p-6 text-lg font-mono smPhone:text-[10px] smPhone:p-1 smPhone:order-2 phone:mb-4">
+            <p className="bg-white border border-black rounded-xl p-6 text-lg font-mono smPhone:text-[10px] smPhone:p-1 smPhone:order-2 phone:mb-4  description:text-start">
               Shoper is a Ecommerce Website which offers 4 Categories, I have
               used Fake Store API to fetch Products data and used Context Hook
               along with TypeScript to manage Cart and Products.
             </p>
             {/* Stack Used */}
-            <div className="w-ful flex items-center justify-end gap-3 order-3 smPhone:flex-wrap phone:mb-4">
+            <div className="w-full flex items-center justify-end gap-3 order-3 smPhone:flex-wrap phone:mb-4 smPhone:w-11/12 smPhone:gap-2 smPhone:text-sm smPhone:justify-start">
               <p className="py-3 px-5 border rounded-[2em] text-white border-white hover:text-yellow-500">
                 API
               </p>
@@ -159,10 +159,10 @@ function Projects() {
                 TailWind CSS
               </p>
               <p className="py-3 px-5 border rounded-[2em] text-white border-white hover:text-yellow-500">
-                TypeScript
+                React
               </p>
               <p className="py-3 px-5 border rounded-[2em] text-white border-white hover:text-yellow-500">
-                React
+                TypeScript
               </p>
             </div>
             {/* Find Live or Code  */}

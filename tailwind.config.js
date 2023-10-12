@@ -9,6 +9,9 @@ export default {
       background: '#C8D3D5',
     },
     screens: {
+      description:{
+        'max' : '1182px'
+      },
       nav:{
         'max' : '700px',
       },
